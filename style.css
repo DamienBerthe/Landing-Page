@@ -1,3 +1,41 @@
 #video{
     border:none;
+    margin:auto;
+}
+
+#main{
+    display:flex;
+    flex-direction: column;
+}
+
+#nav-bar{
+    display:flex;
+    flex-direction: row;
+}
+
+.nav-link{
+    text-decoration:none;
+    color:black;
+    padding : 10px;
+    font-family:Rubik, Roboto;
+    margin:10px 0 10px 0;
+}
+
+.nav-link:hover{
+    background-color: #d9d9d9;
+}
+
+header{
+    margin:auto;
+}
+
+#submit{
+    border:none;
+    padding : 10px;
+    font-family:Rubik, Roboto;
+    cursor:pointer;
+}
+
+#Testimonials{
+    font-family:Rubik, Roboto;
 }
