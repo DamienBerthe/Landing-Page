@@ -1,11 +1,15 @@
-#video{
+#Whatwedo{
     border:none;
     margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 #main{
     display:flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #nav-bar{
@@ -25,17 +29,81 @@
     background-color: #d9d9d9;
 }
 
-header{
-    margin:auto;
-}
-
 #submit{
     border:none;
     padding : 10px;
     font-family:Rubik, Roboto;
     cursor:pointer;
+    background-color: red;
+    font-size:24px;
+    margin-top:10px;
+    width:460px;
+    color:white;
+}
+
+#submit:hover{
+    background-color: #ed5353;
 }
 
 #Testimonials{
     font-family:Rubik, Roboto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#accroche{
+    font-family:Rubik, Roboto;
+}
+#header-img{
+    width: 100%;
+    height: auto;
+    text-align:center;
+}
+#imgcont{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:150px;
+    margin: auto;
+    margin-top:50px;
+}
+
+input{
+    padding:10px;
+    font-size: 16px;
+    margin-top:10px;
+}
+
+.test{
+    font-family:Rubik, Roboto;
+    padding:10px;
+    width:310px;
+    margin:10px;
+    text-align: center;
+}
+
+.icon{
+    width:125px;
+    margin:20px;
+}
+
+h1{
+    font-family:Rubik, Roboto;
+    text-align:center;
+}
+
+.feat{
+    font-family:Rubik, Roboto;
+    padding:10px;
+    width:310px;
+    margin:10px;
+    text-align: center;
+}
+
+#Features{
+    font-family:Rubik, Roboto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
