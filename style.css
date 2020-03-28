@@ -5,7 +5,7 @@
     margin-bottom:50px;
 }
 
-#main{
+#form{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -13,16 +13,20 @@
 }
 
 #nav-bar{
-    display:flex;
-    flex-direction: row;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color: blue;
 }
 
 .nav-link{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration:none;
-    color:black;
-    padding : 10px;
     font-family:Rubik, Roboto;
-    margin:10px 0 10px 0;
+    color:black;
 }
 
 .nav-link:hover{
@@ -56,17 +60,14 @@
     font-family:Rubik, Roboto;
 }
 #header-img{
-    width: 100%;
+    width: 100%; 
     height: auto;
     text-align:center;
+    float:left;
 }
 #imgcont{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width:150px;
-    margin: auto;
-    margin-top:50px;
+    width:100px;
+    margin:10px 0px 0px 10px;
 }
 
 input{
@@ -91,6 +92,12 @@ input{
 h1{
     font-family:Rubik, Roboto;
     text-align:center;
+    font-size: 64px;
+}
+
+h2{
+    font-family:Rubik, Roboto;
+    text-align:center;
 }
 
 .feat{
@@ -102,6 +109,13 @@ h1{
 }
 
 #Features{
+    font-family:Rubik, Roboto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#video{
     font-family:Rubik, Roboto;
     display:flex;
     flex-flow: row wrap;
