@@ -67,8 +67,8 @@ header{
     width: 100%; 
     height: auto;
     float:left;
-   text-align:center;
-   margin:10px 0px 0px 10px;
+    text-align:center;
+    margin:10px 0px 0px 10px;
 }
 #imgcont{
     width: 46px;
@@ -83,10 +83,24 @@ input{
 
 .test{
     font-family:Rubik, Roboto;
+    font-size:20px;
     padding:10px;
     width:310px;
     margin:10px;
     text-align: center;
+    background-color:#eee;
+    margin-top:30px;
+}
+
+.test img{
+    display:block;
+    margin:auto;
+    margin-top:-50px;
+}
+
+.test span{
+    font-size:25px;
+    font-weight: bold;
 }
 
 .icon{
@@ -110,7 +124,7 @@ h2{
 
 #accroche{
     font-family:Rubik, Roboto;
-    font-size: 34px;
+    font-size: 50px;
     text-align: left;
     margin-top:200px;
 }
@@ -121,6 +135,7 @@ h2{
     width:310px;
     margin:10px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 #Features{
@@ -154,4 +169,10 @@ h2{
 html,body {
     margin:0;
     padding:0;
+    background-image: url("pattern.png");
+    margin-bottom:100px;
+}
+
+#Testimonialsh1{
+    margin-bottom:100px;
 }
