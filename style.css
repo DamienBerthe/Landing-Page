@@ -53,7 +53,7 @@ header{
 }
 
 #submit:hover{
-    background-color: #e86c2a;
+    background-color: #ff8928;
 }
 
 #Testimonials{
@@ -88,7 +88,7 @@ input{
     width:310px;
     margin:10px;
     text-align: center;
-    background-color:#eee;
+    background-color:#6B7A8F;
     margin-top:60px;
 }
 
@@ -106,18 +106,22 @@ input{
 .icon{
     width:125px;
     margin:20px;
+    margin-bottom:50px;
 }
 
 h1{
     font-family:Rubik, Roboto;
     text-align:center;
     font-size: 34px;
+    margin-bottom:50px;
+    padding:10px;
 }
 
 h2{
     font-family:Rubik, Roboto;
     font-size:20px;
     font-weight: normal;
+    padding:10px;
   /*  text-align:center; */
 }
 
@@ -135,7 +139,6 @@ h2{
     width:310px;
     margin:10px;
     text-align: center;
-    margin-bottom: 100px;
 }
 
 #Features{
@@ -145,7 +148,7 @@ h2{
     justify-content: center;
 }
 
-.anchor { padding-top: 90px; }
+.anchor { padding-top: 60px; }
 
 #flex1{
     font-family:Rubik, Roboto;
@@ -173,6 +176,11 @@ html,body {
     margin-bottom:100px;
 }
 
-#Testimonialsh1{
-    margin-bottom:100px;
+#background1{
+    background-color: #6B7A8F;
+    height:100vh;
+}
+
+#background0{
+    height:100vh;
 }
