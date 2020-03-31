@@ -4,17 +4,6 @@
     margin:auto;
 }
 
-#form{
-   /*
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    margin-top:200px;
-    margin-left: 100px;
-
-}
-
 header{
     width:100%;
 }
@@ -24,6 +13,7 @@ header{
     top:0;
     width:100%;
     background-color: white;
+    z-index:1;
 }
 
 .nav-link{
@@ -122,7 +112,7 @@ h2{
     font-size:20px;
     font-weight: normal;
     padding:10px;
-  /*  text-align:center; */
+    text-align:left; 
 }
 
 
@@ -130,7 +120,8 @@ h2{
     font-family:Rubik, Roboto;
     font-size: 50px;
     text-align: left;
-    margin-top:200px;
+    margin-bottom: 0px;
+ /*   margin-top:200px; */
 }
 
 .feat{
@@ -154,10 +145,11 @@ h2{
     font-family:Rubik, Roboto;
     display:flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items:center;
     background-image: url("background.jpg");
     background-repeat: no-repeat;
-    height:700px;
+    height:100vh;
     background-size:cover;
     background-position:right bottom;
     /* width:100vw; */
@@ -166,8 +158,26 @@ h2{
 
 #div1{
     width:500px;
-    margin-left: -100px;
+    /*margin-left: -100px; */
+    position:relative;
+    z-index: 0;
+    bottom:50px;
+    padding:50px;
 }
+
+#div2{
+    position:relative;
+    bottom:100px;
+    right:170px;
+}
+
+
+#form{
+    /*
+     margin-top:200px;
+     margin-left: 100px; */
+ 
+ }
 
 html,body {
     margin:0;
