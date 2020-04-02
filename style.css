@@ -43,14 +43,16 @@ header{
 
 #submit{
     border:none;
-    padding : 9px;
+    padding : 10px;
     font-family:Rubik, Roboto;
     cursor:pointer;
     background-color:#fca600;
     font-size:24px;
     margin-top:10px;
-    width:306px;
+    width:80%;
     color:white;
+    border-radius: 4px;
+    max-width:350px;
 }
 
 #submit:hover{
@@ -190,12 +192,12 @@ video {
     padding:20px;
     border-radius: 10px;;
     color:white;
+    max-width:700px;
 }
 
 
 #form{
-    text-align:center;
- 
+    text-align:center; 
  }
 
 html,body {
@@ -211,6 +213,10 @@ html,body {
 
 input[type=email]{
     width:80%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border:none;
+    max-width:350px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -222,14 +228,12 @@ input[type=email]{
 
     #accroche{
         font-size:2rem;
+        text-align:center;
     }
 
     h2{
         font-size:1rem;
-    }
-
-    #submit{
-        width:80%;
+        text-align:center;
     }
 
     .nav-link{
@@ -252,22 +256,53 @@ input[type=email]{
     }
 
     #accroche{
-        font-size:2.5rem;
+        font-size:2rem;
+        text-align:center;
     }
 
-    #submit{
-        width:80%;
+
+    h2{
+        font-size:1rem;
+        text-align:center;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+    #div1 {
+        width:50%;
+    }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+    input[type=email]{
+        width:60%;
+    }
+
+    #submit{
+        width:60%;
+    }
+    #accroche{
+        font-size:2.5rem;
+    }
+    
+    h2{
+        font-size:1.5rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    #accroche{
+        font-size:3rem;
+    }
+    
+    h2{
+        font-size:2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+}
