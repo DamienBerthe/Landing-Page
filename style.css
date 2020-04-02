@@ -119,7 +119,6 @@ h2{
     font-family:Rubik, Roboto;
     font-size: 50px;
     text-align: left;
-    margin-bottom: 0px;
  /*   margin-top:200px; */
 }
 
@@ -157,7 +156,7 @@ h2{
     flex-flow: row wrap;
     justify-content: space-around;
     align-items:center;*/
-    background-image: url("background.jpg");
+    background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     height:100vh;
     background-size:cover;
@@ -171,8 +170,11 @@ h2{
     /*margin-left: -100px; */
     position:relative;
     z-index: 0;
-    padding-top:200px;
-    padding-left:400px;
+    margin-top:200px;
+    margin-left:400px;
+    padding:20px;
+    border-radius: 5px;;
+    background:white;
 }
 
 #div2{
@@ -192,7 +194,7 @@ h2{
 html,body {
     margin:0;
     padding:0;
-    background-image: url("pattern.png");
+    background-image: url("images/pattern.png");
     margin-bottom:50px;
 }
 
