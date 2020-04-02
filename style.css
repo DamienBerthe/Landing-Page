@@ -46,6 +46,7 @@ header{
     background-color: #ff8928;
 }
 
+
 #Testimonials{
     font-family:Rubik, Roboto;
     display:flex;
@@ -103,7 +104,7 @@ h1{
     font-family:Rubik, Roboto;
     text-align:center;
     font-size: 34px;
-    padding:10px;
+    padding:60px 20px;
 }
 
 h2{
@@ -119,8 +120,15 @@ h2{
     font-family:Rubik, Roboto;
     font-size: 50px;
     text-align: left;
+    padding:0;
+    margin:0;
  /*   margin-top:200px; */
 }
+
+video {
+    max-width: 100%;
+    height: auto;
+  }
 
 .feat{
     font-family:Rubik, Roboto;
@@ -138,16 +146,18 @@ h2{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding:10px;
+    padding:50px;
 }
+
 
 #background1{
     background-color: #6B7A8F;
-    min-height:600px;
-    min-height:100vh;
+  /*  min-height:600px;
+    min-height:100vh; */
 }
 
-.anchor { padding-top: 60px; }
+/*
+.anchor { padding-top: 60px; } */
 
 #flex1{
     font-family:Rubik, Roboto;
@@ -156,7 +166,7 @@ h2{
     flex-flow: row wrap;
     justify-content: space-around;
     align-items:center;*/
-    background-image: url("images/background.jpg");
+    background-image: url("images/background1.jpg");
     background-repeat: no-repeat;
     height:100vh;
     background-size:cover;
@@ -185,9 +195,7 @@ h2{
 
 
 #form{
-    /*
-     margin-top:200px;
-     margin-left: 100px; */
+    text-align:center;
  
  }
 
@@ -199,10 +207,6 @@ html,body {
 }
 
 
-
-#background0{
-    height:100vh;
-}
 
 
 /*
